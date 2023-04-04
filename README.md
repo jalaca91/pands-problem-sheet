@@ -106,7 +106,7 @@ The output is a float rounded
 
 * **Explanation**
 ```
-The while loop repeatedly refines the guess until the difference between the guess and the actual square root is less than 0.0001.  
+The loop refines the guess until the difference between the guess and the actual square root is less than 0.0001.  
 
 The purpose of the break statement is to exit the while loop early, when the difference between 
 the current approximation of the square root and the actual square root is smaller than 0.0001.
@@ -131,7 +131,8 @@ count = text.count("e")   This method returns the number of occurrences of the l
 
 ```
 
-* **References:**   
+* **References:**  
+
 https://python-course.eu/applications-python/sys-module.php  Import sys  
 
 https://www.w3schools.com/python/python_file_handling.asp  Files  
