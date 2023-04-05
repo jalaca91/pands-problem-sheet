@@ -3,5 +3,5 @@
 # Author: Jaime Lara Carrillo 
 
 account_number = input("Enter account number: ")
-final_account = account_number.replace(account_number[:-4], "X" * 6)
+final_account = "X" * (len(account_number) - 4) + account_number[-4:]
 print(final_account)
