@@ -13,9 +13,10 @@ ___
 5. Week 06 - Square root
 6. Week 07 - week7
 7. Week 08 - Plottask
+
 ___
 
-### 1. Week 02 - Bank
+### Week 02 - Bank
 
 When Banks are storing currency figures, they store them as integers (usually in cent). 
 This is to avoid rounding errors. 
@@ -28,7 +29,7 @@ In this link there is a discussion about the different ways in which centimos ca
 
 ___
 
-### 2. Week 03 - Accounts
+### Week 03 - Accounts
 
 Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
 
@@ -51,7 +52,7 @@ In this link explains a little bit about the slicing syntax.
 
 ___
 
-### 3. Week 04 - Collatz
+### Week 04 - Collatz
 
 
 The Collatz Conjecture is a mathematical puzzle that starts with any positive integer. Then enters a loop that continues until "number" equals 1.If it's an even number, divide it by two, but if it's odd, multiply it by three and add one. This process is repeated with the new number obtained, and the goal is to determine if this sequence will eventually reach the number 1.  
@@ -77,7 +78,7 @@ https://www.datacamp.com/tutorial/python-while-loop   While loop tutorial
 
 ___
 
-### 4. Week 05 - Weekday
+### Week 05 - Weekday
 
 This program indicates whether or not today is a working day, so its output will depend on the day on which the code is tested.
 
@@ -93,7 +94,7 @@ https://docs.python.org/3.3/library/datetime.html#datetime-objects     informati
 
 ___
 
-### 5. Week 06 - Square root
+### Week 06 - Square root
 
 This program takes a positive floating-point number as input and outputs an approximation of
 its square root using a while loop.  
@@ -117,7 +118,7 @@ https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-p
 https://www.simplilearn.com/tutorials/python-tutorial/break-in-python#:~:text=You%20can%20use%20break%20in,flow%20to%20the%20outer%20loop  Break statement
 ___
 
-### 6. Week 07 - week7
+### Week 07 - week7
 
 _In this file we find 2 files, a text file, which is a short text of the writer Jorge Luis Borges and the other is a .py file that contains the code._
 a_Dream.txt  
@@ -140,9 +141,10 @@ https://www.w3schools.com/python/python_file_handling.asp  Files
 https://www.programiz.com/python-programming/file-operation  Files
 ___
 
-### 7. Week 08 - Plottask
+### Week 08 - Plottask
 
 ..............
+
 
 
 
