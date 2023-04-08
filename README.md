@@ -6,13 +6,13 @@ ___
 
 ## Index
 
-1. Week 02 - Bank
-2. Week 03 - Accounts
-3. Week 04 - Collatz
-4. Week 05 - Weekday
-5. Week 06 - Square root
-6. Week 07 - week7
-7. Week 08 - Plottask
+1. [Week 02 - Bank](#week-02---bank)
+2. [Week 03 - Accounts](#week-03---accounts)
+3. [Week 04 - Collatz](#week-04---collatz)
+4. [Week 05 - Weekday](#week-05---weekday)
+5. [Week 06 - Square root](#week-06---square-root)
+6. [Week 07 - week7](#week-07---week7)
+7. [Week 08 - Plottask](#week-08---plottask)
 
 ___
 
