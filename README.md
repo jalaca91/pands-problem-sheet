@@ -59,17 +59,16 @@ The Collatz Conjecture is a mathematical puzzle that starts with any positive in
 This program replicates this conjecture.
 
 * **Explanation**
-```
+```                       
 number = int(input("Please enter a positive integer: "))
-print(number, end=" ")                # end =" " allows the output numbers to be printed horizontally and separated by spaces 
-while number != 1:          
-        if number % 2 == 0:                  # Divided by 2 is 0 using the modulus operator (%)
-            print((number // 2), end=" ")      
-            number = (number // 2)
-        elif number % 2 == 1:         
-            print((number * 3 + 1), end=" ")
-            number = (number * 3) + 1
-            
+print(number, end=" ")       # end =" " allows the output numbers to be printed horizontally and separated by spaces   
+while number != 1:
+    if number % 2 == 0:
+        number = (number // 2)
+    else:
+        number = (number * 3) + 1
+    print(number, end=" ")
+    
 ```
 * **References:**      
 https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff       Collatz Conjecture
