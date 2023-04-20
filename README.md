@@ -127,7 +127,7 @@ count.py
 ```
 Import sys               This module provides access to variables and functions that interact with the Python interpreter.
 filename = sys.argv[1]   Assigns the first command-line argument to the variable filename.
-count = text.count("e")   This method returns the number of occurrences of the letter "e" in the file
+count = text.lower().count("e")   This method returns the number of occurrences of the letter "e" in the file(also capital es)
 
 ```
 
