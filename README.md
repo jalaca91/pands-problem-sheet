@@ -142,7 +142,115 @@ ___
 
 ### Week 08 - Plottask
 
-..............
+This program displays the following:
+An histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2 
+A plot of the function  h(x)=x^3 in the range [0, 10]
+
+* **Explanation**
+
+For this program,at the beginning we have to choose additional functionalities, such as the creation of graphs.
+So in this case, we import two well-know libraries:
+
+1) *Numpy* which is for numerical computation that allows you to work with large, multi-dimensional arrays and matrices
+of numerical data. It provides a wide range of mathematical functions to operate on these arrays, making it an
+essential tool for scientific computing, data analysis, and machine learning. To find out more https://numpy.org/
+```
+import numpy as np 
+```
+For our program we set the np alias for numpy, which is widely used.
+
+2) *Matplotlib* which is is a plotting library for the Python programming language that provides a wide
+ variety of high-quality 2D and 3D graphs and plots. More of this in https://matplotlib.org/
+ ```
+import matplotlib.pyplot as plt
+```
+In our program we want to import only the module pyplot. 
+This module provides a collection of functions that allow you to create a variety of charts, plots, histograms, and other visualizations.
+ 
+The programme code is as follows: 
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+np.random.seed(1)
+norm_data = np.random.normal(loc=5, scale=2, size=1000)
+x = np.linspace(0, 10)
+y = x ** 3
+
+plt.plot(x, y, linestyle="dashed", color="orange", label="h(x) = x^3")    # Customise the format
+plt.hist(norm_data, label="Normal_distribution")
+
+plt.title("Plottask")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.legend(loc="upper left")    # This line adds a legend to the plot in the upper left corner
+plt.show()
+```  
+To explain this code we will do it in parts:  
+
+``
+np.random.seed(1)
+``  
+np.random.seed(1) function sets the random seed to 1, which ensures that the same sequence of 
+random numbers will be generated each time the code is run. This is usefull if we want
+to create a graphic that does not change.
+
+``
+norm_data = np.random.normal(loc=5, scale=2, size=1000)
+``
+This line generates 1000 random numbers from a normal distribution with a mean of 5 and a 
+standard deviation of 2 using the np.random.normal() function from Numpy.  
+
+``
+x = np.linspace(0, 10)
+``
+This line generates an array of 50 evenly spaced numbers between 0 and 10 using the np.linspace() function from Numpy.  
+
+``
+y = x ** 3
+``
+This line generates an array of values by taking the cube of each number in the x array. These values are stored in the "y" variable.  
+
+``
+plt.plot(x, y, linestyle="dashed", color="orange", label="h(x) = x^3")
+``
+This line creates a plot of the x and y arrays using the plt.plot() function from pyplot.
+The plot is created with a dashed line style, an orange color, and a label of "h(x) = x^3".
+ 
+``
+plt.hist(norm_data, label="Normal_distribution")
+`` 
+This line creates a histogram of the norm_data variable using the plt.hist() function from pyplot.
+The histogram is labeled "Normal_distribution".
+
+```
+plt.title("Plottask")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.legend(loc="upper left")    # This line adds a legend to the plot in the upper left corner
+plt.show()
+```
+This entire block of code customize the graphic,adding a legend to the plot in the upper left corner and 
+names to the label "x" and "y"
+
+The resulting graph is as follows:
+
+![Figure_Plottask](https://user-images.githubusercontent.com/110190460/234030113-5f850e0f-d9bb-46d3-8cba-1d29e2511fcd.png)
+
+* **References:**  
+
+https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html  numpy.random.normal
+
+https://www.geeksforgeeks.org/matplotlib-pyplot-legend-in-python/   Matplotlib.pyplot.legend() in Python
+
+https://realpython.com/np-linspace-numpy/   np.linspace()
+
+
+
+
+
+
 
 
 
