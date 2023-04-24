@@ -6,6 +6,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+np.random.seed(1)
 norm_data = np.random.normal(loc=5, scale=2, size=1000)
 x = np.linspace(0, 10)
 y = x ** 3
