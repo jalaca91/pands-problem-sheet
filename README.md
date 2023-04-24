@@ -246,7 +246,7 @@ https://www.geeksforgeeks.org/matplotlib-pyplot-legend-in-python/   Matplotlib.p
 
 https://realpython.com/np-linspace-numpy/   np.linspace()
 
-
+https://stackoverflow.com/questions/21494489/what-does-numpy-random-seed0-do   random.seed()
 
 
 
